@@ -1,0 +1,283 @@
+@font-face {font-family: "Alegreya Sans SC Thin";
+  src: url("../fonts/Alegreya/692b043069d32b466b996bde5601a9e2.eot"); /* IE9*/
+  src: url("../fonts/Alegreya/692b043069d32b466b996bde5601a9e2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Alegreya/692b043069d32b466b996bde5601a9e2.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Alegreya/692b043069d32b466b996bde5601a9e2.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Alegreya/692b043069d32b466b996bde5601a9e2.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Alegreya/692b043069d32b466b996bde5601a9e2.svg#Alegreya Sans SC Thin") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Noto Sans";
+  src: url("../fonts/Noto/2fd9c16b805724d590c0cff96da070a4.eot"); /* IE9*/
+  src: url("../fonts/Noto/2fd9c16b805724d590c0cff96da070a4.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Noto/2fd9c16b805724d590c0cff96da070a4.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Noto/2fd9c16b805724d590c0cff96da070a4.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Noto/2fd9c16b805724d590c0cff96da070a4.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Noto/2fd9c16b805724d590c0cff96da070a4.svg#Noto Sans V1") format("svg"); /* iOS 4.1- */
+}
+body{
+  font-family: "Noto Sans"!important;
+}
+li>a{
+  color: #bebebe;
+  font-size: 18px;
+}
+figure {
+    text-align: center;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    background: rgba(0,0,0,0.05);
+    padding: 10px;
+    margin: 10px 20px;
+    display: inline-block;
+}
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#form_inline{
+  display: inline-block!important;
+}
+.thumbnail{
+  margin-bottom: 0px;
+}
+.close span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.Calibri{
+  font-family: "Calibri";
+}
+/*//////////////////////////////////////////////////////*/
+#author{
+  margin-top: 60px;
+}
+  #author  a , span{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin:0px;
+    font-family: "Noto Sans";
+    height: 14px;
+  }
+/*//////////////////////////////////////////////////////*/
+#title{
+  color: black;
+  border: 0px!important;
+  font-size: 80px;
+  line-height: 65px;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  font-family: "Alegreya Sans SC Thin";
+}
+#title span{
+  font-size: 12px;
+}
+#profile_img{
+  height: 150px;
+  text-align: center;
+}
+/*//////////////////////////////////////////////////////*/
+#divWelcome{
+  font-size: 100px;
+  color: #bebebe;
+  text-align: center;
+  padding-top: 30vh;
+}
+#description{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Calibri";
+  padding: 15px;
+  margin-bottom: 0px;
+}
+#filtros{
+  padding: 10px;
+}
+#separador{
+  margin: 0px;
+}
+#miBoton{
+  border: none;
+  border-color: inherit;
+}
+#price{
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+#myTags{
+  margin-bottom: 5px;
+}
+/*//////////////////////////////////////////////////////*/
+#personal_card >img{
+  padding: 15px 40px;
+}
+#personal_card >div{
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+}
+#personal_card > div >  h1 , h2{
+  font-size: 36px;
+  margin: 0px;
+  color: black;
+  font-family: "Georgia";
+
+}
+#page-wrapper{
+  padding: 0px;
+  border: 0px;
+  background-color: #ddd!important;
+}
+#post{
+  margin: 0px;
+  background-color: #fff;
+  padding: 15px 60px;
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+}
+/*//////////////////////////////////////////////////////*/
+#side-menu{
+  font-family: "Alegreya Sans SC Thin";
+}
+#side-menu label{
+  font-family: "Calibri";
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+}
+#side-menu .glyphicon{
+  padding: 15px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+/*//////////////////////////////////////////////////////*/
+.caption a{
+  font-size: 16px;
+  color: #4d4d4d;
+  text-align: center;
+}
+.caption a:hover{
+  text-decoration: none;
+}
+.caption hr{
+  margin: 10px 0px;
+}
+.blog-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*//////////////////////////////////////////////////////*/
+.teme-home{
+  background-color: #e3c105;
+}
+.teme-profile{
+  background-color: #48999c;
+}
+.teme-blog{
+  background-color: #a6206d;
+}
+.teme-contact{
+  background-color: #9383a6;
+}
+/*//////////////////////////////////////////////////////*/
+.my-panel{
+  margin: 15px 10%;
+  border: 1px solid rgba(156, 156, 156, 0.29);
+  /*-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);*/
+}
+.my-panel> .panel-heading{
+  background-color: #337ab7;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+/*//////////////////////////////////////////////////////*/
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #48999c;
+}
+.navbar-top-links li a i{
+  padding: 16px 10px 16px 16px;
+  min-height: inherit;
+}
+.navbar-top-links li a{
+  color: black;
+  padding: 0px;
+  min-height: inherit;
+}
+.navbar-top-links li a:hover{
+  padding: 0px;
+  min-height: inherit;
+  background: none;
+  -webkit-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -ms-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+/*//////////////////////////////////////////////////////*/
+.progress-bar-deafult{
+  background-color:#c1def7;
+  color: #337ab7;
+  /*text-align: left;*/
+  font-size: 14px;
+}
+.panel-body hr{
+  margin: 5px;
+}
+.panel-body{
+  color: #828282;
+  text-align: justify;
+}
+.panel-footer a{
+  font-size: 14px;
+  color: #337ab7;
+  font-weight: bold;
+}
+.panel-footer{
+  background-color: #c1def7;
+}
+.page-header{
+  background-color: #337ab7;
+}
+/*//////////////////////////////////////////////////////*/
+.sidebar ul li a{
+  font-weight: bold;
+  color: gray;
+}
+.sidebar ul li a i{
+  color: white;
+}
+.sidebar ul li a.active {
+    background-color: #48999c;
+    color: white;
+}
+.sidebar ul li a:hover {
+    background-color: #48999c;
+    color: white;
+}
+.sidebar li>a{
+  padding: 15px;
+}
+/***********************************************/
+@media (max-width: 600px) {
+  #title{
+    font-size: 60px;
+  }
+}
+@media (min-width: 768px){
+  .modal-dialog {
+    width: 500px;
+  }
+  .sidebar li>a{
+    padding: 5px;
+  }
+}
